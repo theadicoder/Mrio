@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+body {
+  background-color: #fff; /* Default background color */
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #f0f0f0; /* Change background color for smaller screens */
+  }
+}
+
+.calculator {
+  width: 90%; /* Adjust width for responsiveness */
+  max-width: 300px; /* Limit maximum width */
+  margin: 0 auto; /* Center calculator horizontally */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px; /* Add gap between buttons */
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
